@@ -1,0 +1,16 @@
+# See the full configuration reference: https://rioterm.com/docs/config
+theme = "deus-ex-human-revolution"
+env-vars = [
+    "THISIRIO=YES"
+]
+
+[window]
+columns = 106
+rows = 28
+
+
+[renderer]
+backend = "Webgpu"
+filters = [
+    "/Users/kosmikskye/.config/rio/shaders/sarif-bloom.slangp"
+]

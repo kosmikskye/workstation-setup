@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[user]
+	email = ${ENV_VAR_GIT_EMAIL}
+	name = ${ENV_VAR_GIT_NAME}
+[core]
+	editor = nano

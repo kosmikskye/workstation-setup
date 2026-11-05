@@ -1,0 +1,66 @@
+
+# Deus Ex: Human Revolution — Sarif Gold
+# Custom Rio terminal theme
+# Inspired by the game's black, amber and gold UI.
+
+[colors]
+
+# Primary
+background = '#0B0A08'
+foreground = '#E8C878'
+dim-foreground = '#94784B'
+light-foreground = '#FFE4A0'
+
+# Cursor
+cursor = '#F5C451'
+vi-cursor = '#E8AD35'
+
+# Selection
+selection-background = '#73521E'
+selection-foreground = '#FFF0C8'
+
+# Tabs and navigation
+tabs = '#96763A'
+tabs-active = '#F5C451'
+bar = '#15120D'
+split = '#57431C'
+
+# Search
+search-match-background = '#73521E'
+search-match-foreground = '#FFF0C8'
+search-focused-match-background = '#E8AD35'
+search-focused-match-foreground = '#0B0A08'
+
+# Hints
+hint-background = '#F5C451'
+hint-foreground = '#0B0A08'
+
+# Standard ANSI colours
+black = '#252018'
+red = '#C86B40'
+green = '#8EAD65'
+yellow = '#E8AD35'
+blue = '#7D9C9B'
+magenta = '#B28B91'
+cyan = '#8FAFA0'
+white = '#D5C29A'
+
+# Bright ANSI colours
+light-black = '#735E3A'
+light-red = '#F08B54'
+light-green = '#B5D58B'
+light-yellow = '#F5C451'
+light-blue = '#A3C3C0'
+light-magenta = '#D8A8AC'
+light-cyan = '#B7D6C3'
+light-white = '#FFF0C8'
+
+# Dim ANSI colours
+dim-black = '#191610'
+dim-red = '#87482B'
+dim-green = '#607849'
+dim-yellow = '#967027'
+dim-blue = '#536B69'
+dim-magenta = '#765B60'
+dim-cyan = '#607A70'
+dim-white = '#947F5C'
