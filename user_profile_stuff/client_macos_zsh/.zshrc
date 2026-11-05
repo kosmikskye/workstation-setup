@@ -64,7 +64,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 21`
 if [[ "$TMUX" != "" ]]; then
 
 fortune ~/my_quotes |
-  catsay --cat contemplating |
+  catsay --cat leroy |
   awk '
     BEGIN { printf "\033[30;103m" }
     { printf "%s\033[K\n", $0 }

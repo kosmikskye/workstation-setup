@@ -155,7 +155,7 @@ fi
 # this is for catsay, fortune, etc
 export PATH="/usr/games:$HOME/bin:$PATH"
 if [[ "$TMUX" != "" ]]; then
-    fortune ~/my_quotes | catsay --cat contemplating | lolcat -a -d 1
+    fortune ~/my_quotes | catsay --cat leroy | lolcat -a -d 1
 fi
 
 eval "$(starship init bash)"
