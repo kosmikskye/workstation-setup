@@ -67,8 +67,13 @@ nvm alias default 26
 # set up rust
 rustup-init -y
 
+# save current working dir
+CURRENT_WORK_DIR=${PWD}
+
 # convert quotes to .dat
 cd /Users/$(whoami)
 strfile -c % my_quotes my_quotes.dat
 
+# install rio
+cd $CURRENT_WORK_DIR
 bash install-rio-macos.sh
